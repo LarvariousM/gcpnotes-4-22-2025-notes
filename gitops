@@ -1,0 +1,25 @@
+1. Open Gitbash on your Windows desktop, or Terminal on your Macintosh desktop (DON'T USE POWERSHELL!!!)
+2. Type in PWD (Present Working Directory) KNOW WHERE YOU ARE!
+3. LS = Lists folders
+4. DON'T STORE YOUR FILES/CODE/OR WORK IN ONEDRIVE (You'll be sorry...)
+5. In GitBash, navigate to this folder to store your repo -> cd Users/Documents/TheoWAF/class6.5/
+6. Command To Know: pwd: Print the current working directory, ls: List directory contents, cd: Change directory, mkdir: Create a new directory, rmdir: Remove an empty directory, touch: Create a new empty file, cp: Copy files or directories, mv: Move or rename files or directories, rm: Delete files or directories, cat: View file contents, nano: Open file in Nano text editor, chmod: Change file permissions, chown: Change file owner or group, echo: Display a message or variable, clear: Clear the terminal screen
+7. Create a new folder with the 'mkdir' command, call it whatever you want
+8. mkdir gcp if you don't have gcp folder
+9. go to your github, click on repositories
+10. create a new repo, name it whatever, click on Create Repo
+11. On the next page that says "Quick setup - if you've done this kind of thing before", create a new tab and NEVER click off this page!!!
+12. Click on copy ...create a new repository on the command line, screenshot it, whatever...copy that to your notepad
+13. Go back to your Gitbash
+14. git clone your repo from Github
+15. Add a file to your repo from gitbash -> echo "# sample1" >> README.md
+16. Add another file and add text to the file by doing this by checking the end of the echo command -> echo "i dont know" >> idontknow.txt
+17. Use the command 'cat' to see inside your txt file -> cat idontknow.txt
+18. In Gitbash, run 'git init'
+19. git status
+20. git add .
+21. git status
+22. git commit -m "add a comment here"
+23. git branch -M main
+24. git remote add origin "your git repo link here"
+25. git push -u origin main
