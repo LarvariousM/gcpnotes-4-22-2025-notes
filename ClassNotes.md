@@ -1,9 +1,9 @@
-# Google Cloud Platform - 6.5 Class Notes - Taught by Theo WAF aka Mookie aka Suge WAF @ CloudRow Records ☁️ 😁  - April 22, 2025
+# Google Cloud Platform - 6.5 Class Notes - Taught by Theo WAF aka Mookie - April 22, 2025
 
 Prerequisites for this Tutorial
 
-* GitHub Account
-* Git or GitBash Terminal (should've been installed during the Class 6.5 Installation Walkthrough)
+* A GitHub Account
+* A Git or GitBash Terminal (should've been installed during the Class 6.5 Installation Walkthrough)
 
 
 
