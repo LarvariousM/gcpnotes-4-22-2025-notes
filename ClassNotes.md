@@ -1,6 +1,80 @@
 # Google Cloud Platform - 6.5 Class Notes - Taught by Theo WAF aka Mookie aka Suge WAF @ CloudRow Records ☁️ 😁  - April 22, 2025
 
-## Step by Step Notes & Diagrams
+Prerequisites for this Tutorial
+
+* GitHub Account
+* Git or GitBash Terminal (should've been installed during the Class 6.5 Installation Walkthrough)
+
+
+
+
+### How To Create A GitHub Account
+
+1. Go to https://www.github.com, and click on the Sign Up Button
+
+![1](https://github.com/user-attachments/assets/6468179d-dfba-4cdf-8e6d-b6026c3a04dc)
+
+2. You'll be taken to this next page, input your email, password, username, country/region, and click on the Continue button.
+
+![2](https://github.com/user-attachments/assets/898ce7a4-f53c-405a-8c77-59456309261b)
+
+3. On the next page, you'll be tested to make sure you're not the droid the FBI has been looking for, verify the image!
+
+![3](https://github.com/user-attachments/assets/b1cf7dfe-5516-4214-88e5-ece6a7d4a7a5)
+
+4. You will be sent a launch code/eight digit code to your email. Login to your email and copy this code.
+
+![4](https://github.com/user-attachments/assets/5a0ff9d6-a70c-4aa3-9117-100c5293607d)
+
+5. Come back to this page, and input your code sent to your email.
+
+![5](https://github.com/user-attachments/assets/ce324745-0da1-4546-8f5b-410e122fd296)
+
+6. If done correctly, you'll be directed to this page and your GitHub account has been successfully created. Please sign in to your GitHub account!
+
+
+
+
+### How To Install GIT on your Local Machine (if you didn't install during the Class 6.5 Installation Walkthrough)
+
+1. Go to this website to download the necessary Git file for your computer -> https://learn.microsoft.com/en-us/devops/develop/git/install-and-set-up-git. The webpage will look similar to the image below 
+
+![1](https://github.com/user-attachments/assets/cbea7254-45c1-4d42-9b3c-f79075ebc0fa)
+
+2. Select and click on the necessary installation for your computer.
+
+![2](https://github.com/user-attachments/assets/cd9cc720-8fb9-40ca-8c30-daa50096dffe)
+
+3. I have a Windows computer, so I've selected "Install Git for Windows". The download link will take me to this page below.
+
+![3](https://github.com/user-attachments/assets/d0ea4225-05b3-4eed-abcb-144eda3c17d2)
+
+4. We now need to confirm what System Type (32 bit or 64 bit) our computer has to select the correct installation. That's very simple, on your computer press the windows button and type in "This PC", and click on Properties.
+
+![4](https://github.com/user-attachments/assets/7a608f82-99a9-49ec-843b-d5b76331be3d)
+
+5. Under Device Specifications, you'll see your System Type.
+
+![5](https://github.com/user-attachments/assets/d7aae0d3-9d6c-4ccc-accf-e1bd53b9d92d)
+
+6. Return to the previous page and click on the installation type to download Git on your computer. After the download is completed, open up Powershell (Run as Administrator), and input the following command -> git --version, to confirm that Git has been installed. 
+
+![6](https://github.com/user-attachments/assets/71b190ca-d05b-4c6b-aaa7-2b2b9b2ce714)
+
+7. Press the Windows button, type in GitBash and (Run as Administrator).
+
+![7](https://github.com/user-attachments/assets/f5b04b26-63e4-493c-a8a1-0881008ead72)
+
+8. Your GitBash terminal should look like this image below.
+
+![8](https://github.com/user-attachments/assets/60d23cc4-c389-4016-ae9c-1be6e4ead6dd)
+
+There you have it, you've signed up for a GitHub account and you've installed Git on your computer. We're now ready to RDP and SSH into remote satellites in orbit and launch secret nukes! Just kidding...you're ready to follow along with the rest of this tutorial! Continue on...
+
+
+
+
+## Step by Step Notes & Diagrams for Creating a Repository on Your Local Machine and Pushing It To A GitHub Repository
 
 1. Open Gitbash on your Windows desktop, or Terminal on your Macintosh desktop, then click on "Run as Administrator" (DON'T USE POWERSHELL!!!)
 
