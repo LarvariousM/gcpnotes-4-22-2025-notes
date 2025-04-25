@@ -129,7 +129,9 @@ clear: Clear the terminal screen
 
 ![3](https://github.com/user-attachments/assets/8a2f1c2d-6062-4e1c-85b8-5ef901d9b0f1)
 
-4. The listed directories will be shown from the previous command and now we see our Documents folder, let's input the command cd Documents/ to change our location to Documents. Then, input the command 👉 `pwd` to see our current location, and input the command `ls`, to list our directories and files in the Documents folder. 
+4. The listed directories will be shown from the previous command and now we see our Documents folder, let's input the command `cd Documents/` to change our location to Documents.
+
+Then, input the command 👉 `pwd` to see our current location, and input the command `ls`, to list our directories and files in the Documents folder. 
 
 ![4](https://github.com/user-attachments/assets/3711a9f7-f8fa-4aa1-a7ea-1a609b8103f5)
 
@@ -158,7 +160,7 @@ clear: Clear the terminal screen
 ![8](https://github.com/user-attachments/assets/312a8db5-c38b-4f62-8e2b-d159679201de)
 
 
-9. Alright, open up your favorite browser, open the url https://www.github.com, go to your github, click on repositories, and click on the New button to create a new repository.
+9. Alright, open up your favorite browser, click on the address bar, and type in the url address https://www.github.com, go to your github, click on repositories, and click on the New button to create a new repository.
 
 ![9](https://github.com/user-attachments/assets/c2c1e115-5723-446b-be87-12b650a4f766)
 
@@ -167,7 +169,7 @@ clear: Clear the terminal screen
 
 ![10](https://github.com/user-attachments/assets/894e20de-248c-497c-9bd0-61be09e78cdf)
 
-11. For the love of God, on this page that says "Quick setup - if you've done this kind of thing before", create a new tab and NEVER DELETE this page\tab!!!
+11. For the love of God, on this page that says **"Quick setup - if you've done this kind of thing before"**, create a new tab and **NEVER DELETE** this page\tab!!!
 
 ![11](https://github.com/user-attachments/assets/bd7254db-77af-4acd-b779-e4f96c77f9be)
 
@@ -186,7 +188,7 @@ clear: Clear the terminal screen
 
 ![14](https://github.com/user-attachments/assets/2015641a-d633-473e-b295-66d6aecc8cbd)
 
-15. Add another file and add text to the file by doing this by checking the end of the echo command 👉 `echo "i dont know" >> idontknow.txt`. You can read what the txt file contains by inserting the command -> `cat idontknow.txt`
+15. Add another file of your choice and add custom text to the file by doing this by checking the end of the echo command 👉 `echo "i dont know" >> idontknow.txt`. You can read what the txt file contains by inserting the command -> `cat idontknow.txt`
 
 ![15](https://github.com/user-attachments/assets/611d5904-56af-4ada-a4aa-4b607899e96d)
 
