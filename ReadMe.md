@@ -2,8 +2,8 @@
 
 Prerequisites for this Tutorial
 
-* A GitHub Account
-* A Git or GitBash Terminal (should've been installed during the Class 6.5 Installation Walkthrough)
+* A **GitHub Account**
+* A **Git or GitBash Terminal** (should've been installed during the Class 6.5 Installation Walkthrough)
 
 
 
@@ -45,15 +45,15 @@ Prerequisites for this Tutorial
 
 ![2](https://github.com/user-attachments/assets/cd9cc720-8fb9-40ca-8c30-daa50096dffe)
 
-3. I have a Windows computer, so I've selected "Install Git for Windows". The download link will take me to this page below.
+3. I have a **Windows** computer, so I've selected "Install Git for Windows". The download link will take me to this page below.
 
 ![3](https://github.com/user-attachments/assets/d0ea4225-05b3-4eed-abcb-144eda3c17d2)
 
-4. We now need to confirm what System Type (32 bit or 64 bit) our computer has to select the correct installation. That's very simple, on your computer press the windows button and type in "This PC", and click on Properties.
+4. We now need to confirm what **System Type (32 bit or 64 bit)** our computer has to select the correct installation. That's very simple, on your computer press the windows button, or go to your Windows search bar located and type in "This PC", and click on Properties.
 
 ![4](https://github.com/user-attachments/assets/7a608f82-99a9-49ec-843b-d5b76331be3d)
 
-5. Under Device Specifications, you'll see your System Type.
+5. Under **Device Specifications**, you'll see your **System Type**.
 
 ![5](https://github.com/user-attachments/assets/d7aae0d3-9d6c-4ccc-accf-e1bd53b9d92d)
 
@@ -105,12 +105,12 @@ clear: Clear the terminal screen
 ![1](https://github.com/user-attachments/assets/0a57e1f0-8069-43e8-a689-42cb9e08f1e7)
 
    
-2. Inside Gitbash Terminal, type in `PWD` (Present Working Directory) to find your current location. As you can see in the diagram listed below, I'm currently located in my Users directory called Larva. I need to change my current location to the Documents folder. 
+2. Inside Gitbash Terminal, type in `PWD` (Present Working Directory) to find your current location. As you can see in the diagram listed below, I'm currently located in my ==Users directory called Larva==. I need to change my current location to the Documents folder. 
 
 ![2](https://github.com/user-attachments/assets/d13c0752-5233-4f8b-8c97-bc97dc8081aa)
 
 
-3. To navigate to the Documents folder, we need to list the directories, and change directories one by one. To list directories, type `LS`. 
+3. To navigate to the Documents folder, we need to list the directories, and change directories one by one. To list directories, type the command `LS`. 
 
 ![3](https://github.com/user-attachments/assets/8a2f1c2d-6062-4e1c-85b8-5ef901d9b0f1)
 
