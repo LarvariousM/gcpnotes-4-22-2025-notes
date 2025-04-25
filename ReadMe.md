@@ -100,12 +100,27 @@ clear: Clear the terminal screen
 }
 ```
 
+**Very Important CLI Commands To Remember In Order To Push/Update Files To An Online GitHub Repository"
+
+```
+{
+1. git init
+2. git status
+3. git add [filenmame], or git add . 👈 [to add multiple files]
+4. git status
+5. git commit -m "add a comment here"
+6. git branch -M main
+7. git remote add origin "your github repository url link here"
+8. git push -u origin main
+}
+```
+
 1. Open Gitbash on your Windows desktop, or Terminal on your Macintosh desktop, then click on "Run as Administrator" (DON'T USE POWERSHELL!!!)
 
 ![1](https://github.com/user-attachments/assets/0a57e1f0-8069-43e8-a689-42cb9e08f1e7)
 
    
-2. Inside Gitbash Terminal, type in `PWD` (Present Working Directory) to find your current location. As you can see in the diagram listed below, I'm currently located in my ==Users directory called Larva==. I need to change my current location to the Documents folder. 
+2. Inside Gitbash Terminal, type in `PWD` (Present Working Directory) to find your current location. As you can see in the diagram listed below, I'm currently located in my Users directory called Larva. I need to change my current location to the Documents folder. 
 
 ![2](https://github.com/user-attachments/assets/d13c0752-5233-4f8b-8c97-bc97dc8081aa)
 
@@ -118,15 +133,19 @@ clear: Clear the terminal screen
 
 ![4](https://github.com/user-attachments/assets/3711a9f7-f8fa-4aa1-a7ea-1a609b8103f5)
 
-5. Input the command `cd TheoWAF/` to change our location to TheoWAF folder. Input the following command `ls`, to list the directories in the TheoWAF folder. We're looking for the folder called class6.5. So input the command `cd class6.5/` to change directory location to that folder.
+5. Input the command `cd TheoWAF/` to change our location to TheoWAF folder. Input the following command `ls`, to list the directories in the TheoWAF folder. We're looking for the folder called **class6.5**. So input the command `cd class6.5/` to change directory location to that folder.
 
 ![5](https://github.com/user-attachments/assets/061f6296-e38e-4781-9cec-9c4faa9681e2)
 
-6. Now that we're inside the class6.5 folder, let's input the command `ls` to list directories inside of that folder and we see a folder called gcp. SIDENOTE: If you don't have a directory named GCP, input the following comamnd `mkdir gcp` if you don't have gcp folder. We want to go to that folder, so input the command `cd gcp/`. Type `ls` to list the directories inside of the gcp folder. We see a folder called terraform, input the command cd terraform/ to go to that location. ANOTHER SIDENOTE: If you don't have the directory inside named Terraform, input the command `mkdir terraform` if you don't have terraform folder. Input the command `ls` to list any directories or files, and in the image below, we see no content and this is our destination. HOO-RAY!
+6. Now that we're inside the class6.5 folder, let's input the command `ls` to list directories inside of that folder and we see a folder called **GCP**.
+
+**SIDENOTE**: If you don't have a directory named GCP, input the following comamnd `mkdir gcp` if you don't have gcp folder. We want to go to that folder, so input the command `cd gcp/`. Type `ls` to list the directories inside of the gcp folder. We see a folder called terraform, input the command cd terraform/ to go to that location. 
+
+**ANOTHER SIDENOTE**: If you don't have the directory inside named Terraform, input the command `mkdir terraform` if you don't have terraform folder. Input the command `ls` to list any directories or files, and in the image below, we see no content and this is our destination. HOO-RAY!
 
 ![6](https://github.com/user-attachments/assets/e23fb97c-07f8-41f4-9c59-6b6f9e811d4d)
 
-6. PUBLIC SERVICE ACCOUNCEMENT: DON'T STORE YOUR FILES/CODE/OR WORK IN ONEDRIVE (You'll be forever sent and stuck in Cloud Purgatory, and we won't be able to help you...sorry☹️)
+6. **PUBLIC SERVICE ACCOUNCEMENT**: DON'T STORE YOUR FILES/CODE/OR WORK IN THE ONEDRIVE FOLDER (You'll be forever sent and stuck in Cloud Purgatory, and we won't be able to help you...sorry☹️)
 
 ![7](https://github.com/user-attachments/assets/e2bc4b36-4a3e-44b4-ae34-d173987a3261)
 
@@ -148,7 +167,7 @@ clear: Clear the terminal screen
 
 ![10](https://github.com/user-attachments/assets/894e20de-248c-497c-9bd0-61be09e78cdf)
 
-11. For the love of God, on this page that says "Quick setup - if you've done this kind of thing before", create a new tab and NEVER click off this page\tab!!!
+11. For the love of God, on this page that says "Quick setup - if you've done this kind of thing before", create a new tab and NEVER DELETE this page\tab!!!
 
 ![11](https://github.com/user-attachments/assets/bd7254db-77af-4acd-b779-e4f96c77f9be)
 
@@ -159,7 +178,7 @@ clear: Clear the terminal screen
 
 ` https://github.com/LarvariousM/ihatelizzo.git `
 
-13. Go back to your Gitbash, and input the command `git clone` to clone your repo from Github to the folder location you've created inside terraform in the CLI.
+13. Go back to your Gitbash terminal, and input the command `git clone "https:github.com/YOURUSERNAME/REPO.GIT"` to clone your repo from Github to the folder location you've created inside terraform in the CLI.
 
 ![13](https://github.com/user-attachments/assets/cd9cb327-31f1-45da-9d54-18fbfa365618)
 
@@ -180,7 +199,7 @@ clear: Clear the terminal screen
 ![17](https://github.com/user-attachments/assets/57fbb4cc-bc4a-4bd4-bbb8-1100879c075a)
 
 
-18. In order to track these two files and push them to the GitHub, you have two options. The first option is by adding one single file by inserting the command 👉 `git [filename]`, or the second option is to add all files by inserting this command 👉 `git add` . I'm going to use the second option!
+18. In order to track these two files and push them to the GitHub, you have two options. The first option is by adding one single file by inserting the command 👉 `git [filename]`, or the second option is to add all files by inserting this command 👉 `git add .` I'm going to use the second option!
 
 ![18](https://github.com/user-attachments/assets/1864e831-e5af-4d75-b638-928dd3da10dc)
 
