@@ -14,7 +14,7 @@ Prerequisites for this Tutorial
 
 ![1](https://github.com/user-attachments/assets/6468179d-dfba-4cdf-8e6d-b6026c3a04dc)
 
-2. You'll be taken to this next page, input your email, password, username, country/region, and click on the Continue button.
+2. You'll be taken to this next page, input your **email**, **password**, **username**, **country/region**, and click on the Continue button.
 
 ![2](https://github.com/user-attachments/assets/898ce7a4-f53c-405a-8c77-59456309261b)
 
@@ -57,11 +57,11 @@ Prerequisites for this Tutorial
 
 ![5](https://github.com/user-attachments/assets/d7aae0d3-9d6c-4ccc-accf-e1bd53b9d92d)
 
-6. Return to the previous page and click on the installation type to download Git on your computer. After the download is completed, open up Powershell (Run as Administrator), and input the following command -> git --version, to confirm that Git has been installed. 
+6. Return to the previous page and click on the installation type to download Git on your computer. After the download is completed, open up **Powershell (Run as Administrator)**, and input the following command 👉 `git --version`, to confirm that Git has been installed. 
 
 ![6](https://github.com/user-attachments/assets/71b190ca-d05b-4c6b-aaa7-2b2b9b2ce714)
 
-7. Press the Windows button, type in GitBash and (Run as Administrator).
+7. Press the Windows button on your keyboard or go to the Windows search bar, and type in GitBash and (Run as Administrator).
 
 ![7](https://github.com/user-attachments/assets/f5b04b26-63e4-493c-a8a1-0881008ead72)
 
@@ -69,7 +69,7 @@ Prerequisites for this Tutorial
 
 ![8](https://github.com/user-attachments/assets/60d23cc4-c389-4016-ae9c-1be6e4ead6dd)
 
-There you have it, you've signed up for a GitHub account and you've installed Git on your computer. We're now ready to RDP and SSH into remote satellites in orbit and launch secret nukes! Just kidding...you're ready to follow along with the rest of this tutorial! Continue on...
+There you have it, you've signed up for a **GitHub account** and you've installed **Git** on your computer. We're now ready to RDP and SSH into remote satellites in orbit and launch secret nukes! Just kidding...you're ready to follow along with the rest of this tutorial! Continue on...
 
 
 
