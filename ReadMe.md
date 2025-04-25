@@ -100,7 +100,7 @@ clear: Clear the terminal screen
 }
 ```
 
-**Very Important CLI Commands To Remember In Order To Push/Update Files To An Online GitHub Repository"
+**Very Important CLI Commands To Remember In Order To Push/Update Files To An Online GitHub Repository"**
 
 ```
 {
